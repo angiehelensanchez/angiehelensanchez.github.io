@@ -1,74 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<metacharset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Angie Helen Rodas Sánchez - Personal Portfolio</title>
-<style>
-/* CSS styles for page */
-</style>
-</head>
-<body>
-<header>
-<h1>Angie Helen Rodas Sánchez</h1>
-<nav>
-<ul>
-<li><a href="#about-me">About me</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portafolio de Angie Helen Rodas Sánchez</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Angie Helen Rodas Sánchez</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+        <h2>Sobre mí</h2>
+        <img src="foto-perfil.jpg" alt="Foto de perfil de Angie Helen Rodas Sánchez" />
+        <p>¡Hola! Mi nombre es Angie Helen Rodas Sánchez y soy programadora. Me apasiona el desarrollo web y siempre estoy buscando aprender cosas nuevas. Me encanta trabajar en equipo y colaborar en proyectos interesantes.</p>
+      </section>
+      <section id="projects">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto.</p>
+            <a href="#">Ver proyecto</a>
+          </li>
+          <li>
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto.</p>
+            <a href="#">Ver proyecto</a>
+          </li>
+          <li>
+            <h3>Proyecto 3</h3>
+            <p>Descripción breve delproyecto.</p>
+            <a href="#">Ver proyecto</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" />
 
-<main>
-<section id="about-me">
-<h2>About me</h2>
-<img src="mi-foto.jpg" alt="Photo of Angie Helen Rodas Sánchez">
-<p>I am a programmer who is passionate about web development. I love learning new technologies and tools that allow me to create more efficient and attractive websites. 
-    In addition, I consider myself a responsible person and committed to my work, I always seek to give my best in each project.</p>
-    p>
-</section>
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" />
 
-<section id="projects">
-<h2>Projects</h2>
-<ul>
-<li>
-<h3>Project 1</h3>
-<p>Brief description of the project 1</p>
-<a href="#">View project</a>
-</li>
-<li>
-<h3>Project 2</h3>
-<p>Brief description of project 2</p>
-<a href="#">View project</a>
-</li>
-<li>
-<h3>Project 3</h3>
-<p>Brief description of project 3</p>
-<a href="#">View project</a>
-</li>
-</ul>
-</section>
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message"></textarea>
 
-<section id="contact">
-<h2>Contact</h2>
-<form action="#">
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
-
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
-
-<label for="message">Message:</label>
-<textarea id="message" name="message" required></textarea>
-
-<button type="submit">Send message</button>
-</form>
-</section>
-</main>
-
-<footer>
-<p>All rights reserved &copy; 2023 Angie Helen Rodas Sánchez</p>
-</footer>
-</body>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados &copy; 2023 Angie Helen Rodas Sánchez</p>
+    </footer>
+  </body>
 </html>
