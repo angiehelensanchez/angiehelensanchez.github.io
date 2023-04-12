@@ -215,9 +215,3 @@ footer {
     font-size: 1.5rem;
   }
 
-  /* Estilos para la sección de proyectos */
-  .projects article {
-    width: 100%;
-    margin-right: 0;
-  }
-}
