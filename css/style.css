@@ -85,11 +85,15 @@ nav a {
 nav a:hover {
   color: #AF6C6C;
 }
+
 /* Estilos para la sección de proyectos */
 
 .projects {
   background-color: #f9d7d7;
   padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects h1 {
@@ -105,6 +109,19 @@ nav a:hover {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .projects article {
+    margin-right: 30px;
+  }
+}
+
+.projects article:last-child {
+  margin-right: 0;
 }
 
 .projects article h2 {
@@ -133,45 +150,35 @@ nav a:hover {
 .projects article a:hover {
   background-color: #d66c87;
 }
-
-/* Sección "Contacto" */
-#contact {
-  background-color: #f3dfe8; /* rosa pastel */
-  padding: 40px;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  color: #333; /* color oscuro para contraste */
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-}
-
-input[type="submit"] {
-  background-color: #f3dfe8; /* rosa pastel */
-  color: #333; /* color oscuro para contraste */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-input[type="submit"]:hover {
-  background-color: #e1c1d3; /* rosa pastel más oscuro */
-}
-
 /* Pie de página */
 footer {
   background-color: #333; /* color oscuro */
   color: #fff; /* blanco */
+  
+  @media screen and (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+
+  /* Estilos para el header */
+  .logo img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .nav {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav a {
+    padding: 10px 0;
+    font-size: 1.5rem;
+  }
+
+  /* Estilos para la sección de proyectos */
+  .projects article {
+    width: 100%;
+    margin-right: 0;
+  }
+}
