@@ -88,59 +88,53 @@ nav a:hover {
 
 /* Estilos para la sección de proyectos */
 
-.projects-header {
-  background-color: #F5D0E9;
-  padding: 50px 0;
-  text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  color: #fff;
-}
-
-.projects-container {
-  display: flex;
-  justify-content: center;
+.projects {
+  margin: 50px auto;
+  width: 90%;
 }
 
 .project {
-  width: 300px;
-  height: 300px;
-  margin: 20px;
-  border-radius: 10px;
-  background-color: #F5D0E9;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.project p {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.project a {
   background-color: #fff;
-  color: #F5D0E9;
-  padding: 10px 20px;
   border-radius: 5px;
-  text-decoration: none;
-  margin-top: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-details h3 {
+  color: #ff8cb4;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-details a {
+  background-color: #ff8cb4;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.project a:hover {
-  background-color: #F5D0E9;
-  color: #fff;
+.project-details a:hover {
+  background-color: #ff699d;
 }
 /* Pie de página */
 footer {
