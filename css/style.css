@@ -8,54 +8,104 @@ body {
 
 /* Encabezado */
 header {
-  background-color: #f3dfe8; /* rosa pastel */
-  padding: 20px;
-}
-
-header h1 {
-  margin: 0;
-  color: #333; /* color oscuro para contraste */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-align: right;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
-  margin-left: 20px;
 }
 
-nav li:first-child {
-  margin-left: 0;
-}
-
-nav a {
-  color: #333; /* color oscuro para contraste */
+nav ul li a {
+  color: #444;
+  display: block;
+  font-size: 1.2em;
+  padding: 10px 20px;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: background-color 0.2s ease;
 }
 
-nav a:hover {
-  color: #f3dfe8; /* rosa pastel */
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #f9f9f9;
 }
 
-/* Sección "Sobre mí" */
-#about-me {
-  background-color: #f3dfe8; /* rosa pastel */
-  padding: 40px;
+.menu-icon {
+  cursor: pointer;
+  display: none;
+  font-size: 2em;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-#about-me img {
-  float: left;
-  margin-right: 20px;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
+@media (max-width: 700px) {
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  nav ul li a {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  input[type="checkbox"]:checked ~ ul {
+    display: block;
+  }
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  min-width: 200px;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li a {
+  color: #444;
+  display: block;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.submenu li a:hover,
+.submenu li a:focus {
+  background-color: #f9f9f9;
 }
 /* Sección "Proyectos" */
 #projects {
