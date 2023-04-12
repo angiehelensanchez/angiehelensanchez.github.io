@@ -1,20 +1,20 @@
-/* Estilos CSS para la página /
+/* Estilos CSS para la página */
 
-/ Fuente /
+/* Fuente */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
-/ Encabezado /
+/* Encabezado */
 header {
-  background-color: #f3dfe8; / rosa pastel /
+  background-color: #f3dfe8; /* rosa pastel */
   padding: 20px;
 }
 
 header h1 {
   margin: 0;
-  color: #333; / color oscuro para contraste /
+  color: #333; /* color oscuro para contraste */
 }
 
 nav ul {
@@ -34,18 +34,18 @@ nav li:first-child {
 }
 
 nav a {
-  color: #333; / color oscuro para contraste /
+  color: #333; /* color oscuro para contraste */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #f3dfe8; / rosa pastel /
+  color: #f3dfe8; /* rosa pastel */
 }
 
-/ Sección "Sobre mí" /
+/* Sección "Sobre mí" */
 #about-me {
-  background-color: #f3dfe8; / rosa pastel */
+  background-color: #f3dfe8; /* rosa pastel */
   padding: 40px;
 }
 
@@ -57,9 +57,9 @@ nav a:hover {
   object-fit: cover;
   border-radius: 50%;
 }
-/* Sección "Proyectos" /
+/* Sección "Proyectos" */
 #projects {
-  background-color: #fff; / blanco /
+  background-color: #fff; /* blanco */
   padding: 40px;
 }
 
@@ -75,34 +75,34 @@ nav a:hover {
 
 #projects h3 {
   margin: 0;
-  color: #f3dfe8; / rosa pastel /
+  color: #f3dfe8; /* rosa pastel */
 }
 
 #projects p {
   margin: 0;
-  color: #666; / gris para contraste /
+  color: #666; /* gris para contraste */
 }
 
 #projects a {
-  color: #333; / color oscuro para contraste /
+  color: #333; /* color oscuro para contraste */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 #projects a:hover {
-  color: #f3dfe8; / rosa pastel /
+  color: #f3dfe8; /* rosa pastel */
 }
 
-/ Sección "Contacto" /
+/* Sección "Contacto" */
 #contact {
-  background-color: #f3dfe8; / rosa pastel /
+  background-color: #f3dfe8; /* rosa pastel */
   padding: 40px;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
-  color: #333; / color oscuro para contraste /
+  color: #333; /* color oscuro para contraste */
 }
 
 input[type="text"],
@@ -117,8 +117,8 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #f3dfe8; / rosa pastel /
-  color: #333; / color oscuro para contraste /
+  background-color: #f3dfe8; /* rosa pastel */
+  color: #333; /* color oscuro para contraste */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -127,10 +127,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #e1c1d3; / rosa pastel más oscuro /
+  background-color: #e1c1d3; /* rosa pastel más oscuro */
 }
 
-/ Pie de página /
+/* Pie de página */
 footer {
-  background-color: #333; / color oscuro /
-  color: #fff; / blanco */
+  background-color: #333; /* color oscuro */
+  color: #fff; /* blanco */
