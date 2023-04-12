@@ -63,74 +63,25 @@ h1 {
   font-size: 1.5em;
 }
 
-nav ul {
-  list-style: none;
+nav {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
-  display: block;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
-nav ul li a {
-  color: #444;
-  display: block;
-  font-size: 1.2em;
-  padding: 10px 20px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
+nav li {
+  margin-right: 30px;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-  background-color: #f9f9f9;
-}
-
-@media (max-width: 700px) {
-  nav ul {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-    font-size: 2em;
-    padding: 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  input[type="checkbox"]:checked ~ ul {
-    display: block;
-    position: absolute;
-    top: 48px;
-    right: 0;
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 10px 0;
-    border-top: 1px solid #ddd;
-  }
-
-  nav ul li {
-    display: block;
-    float: none;
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  nav ul li a {
-    background-color: transparent;
-    padding: 0;
-    border-bottom: 1px solid #ddd;
-    margin: 0 20px;
-  }
-
-  nav ul li:last-child a {
-    border-bottom: none;
-  }
+nav li:last-child {
+  margin-right: 0;
 }
 /* Sección "Proyectos" */
 #projects {
