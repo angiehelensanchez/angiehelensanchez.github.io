@@ -47,20 +47,11 @@ body {
 
 /* Encabezado */
 header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
-h1 {
-  color: #f38eba;
-  margin: 0;
-  font-size: 1.5em;
+  background-color: #F8E7E7;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -82,6 +73,17 @@ nav li {
 
 nav li:last-child {
   margin-right: 0;
+}
+
+nav a {
+  font-size: 18px;
+  color: #7B4F4F;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #AF6C6C;
 }
 /* Sección "Proyectos" */
 #projects {
