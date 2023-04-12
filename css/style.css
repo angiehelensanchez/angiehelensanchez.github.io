@@ -88,12 +88,7 @@ nav a:hover {
 
 /* Estilos para la sección de proyecto */
 
-.projects {
-  margin: 50px auto;
-  width: 90%;
-}
-
-.project {
+.projects article {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -101,30 +96,30 @@ nav a:hover {
   overflow: hidden;
 }
 
-.project img {
+.projects article img {
   width: 100%;
   height: auto;
 }
 
-.project-details {
+.projects article .project-details {
   padding: 20px;
   text-align: center;
 }
 
-.project-details h3 {
+.projects article .project-details h3 {
   color: #ff8cb4;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
-.project-details p {
+.projects article .project-details p {
   color: #333333;
   font-size: 16px;
   margin-bottom: 20px;
   text-align: justify;
 }
 
-.project-details a {
+.projects article .project-details a {
   background-color: #ff8cb4;
   border-radius: 20px;
   color: #ffffff;
@@ -135,7 +130,7 @@ nav a:hover {
   transition: background-color 0.2s ease-in-out;
 }
 
-.project-details a:hover {
+.projects article .project-details a:hover {
   background-color: #ff699d;
 }
 /* Pie de página */
