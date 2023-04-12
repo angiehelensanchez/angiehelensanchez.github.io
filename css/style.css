@@ -1,0 +1,136 @@
+/* Estilos CSS para la página /
+
+/ Fuente /
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/ Encabezado /
+header {
+  background-color: #f3dfe8; / rosa pastel /
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #333; / color oscuro para contraste /
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  color: #333; / color oscuro para contraste /
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f3dfe8; / rosa pastel /
+}
+
+/ Sección "Sobre mí" /
+#about-me {
+  background-color: #f3dfe8; / rosa pastel */
+  padding: 40px;
+}
+
+#about-me img {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Sección "Proyectos" /
+#projects {
+  background-color: #fff; / blanco /
+  padding: 40px;
+}
+
+#projects ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#projects li {
+  margin-bottom: 20px;
+}
+
+#projects h3 {
+  margin: 0;
+  color: #f3dfe8; / rosa pastel /
+}
+
+#projects p {
+  margin: 0;
+  color: #666; / gris para contraste /
+}
+
+#projects a {
+  color: #333; / color oscuro para contraste /
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#projects a:hover {
+  color: #f3dfe8; / rosa pastel /
+}
+
+/ Sección "Contacto" /
+#contact {
+  background-color: #f3dfe8; / rosa pastel /
+  padding: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; / color oscuro para contraste /
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #f3dfe8; / rosa pastel /
+  color: #333; / color oscuro para contraste /
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e1c1d3; / rosa pastel más oscuro /
+}
+
+/ Pie de página /
+footer {
+  background-color: #333; / color oscuro /
+  color: #fff; / blanco */
